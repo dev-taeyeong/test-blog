@@ -12,151 +12,149 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: 'default' # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+locale: 'kr-KR'
+title: '1day1commit' # Meta 태그 들어가는 영역, masthead_title 등이 없으면 기본값으로 나온다.
+title_separator: '-' # 타이틀 사이 구분자 <title>Welcom to Jekyll | Minimal Mistakes</title> 해당 형식으로 들어간다.
+subtitle: 'Version 1.0' # site tagline that appears below site title in masthead # 타이틀 아래에 나올 작은 글씨
+name: '정태영' # 맨 하단 이름 찍히는 영역
+description: 'JavaScript 공부 블로그' # Meta 태그에 들어가는 영역
+url: 'https://1day1commit.github.io' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: # the subpath of your site, e.g. "/blog"
+repository: '1day1commit/1day1commit.githut.io' # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png" # 홈페이지 기본 티저 이미지
+logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png" # 타이틀 옆에 작게 들어갈 이미지
+masthead_title: '개발 기록 Blog' # overrides the website title displayed in the masthead, use " " for no title # 홈페이지 최상단에 들어갈 타이틀
+# breadcrumbs            : false # true, false (default) # 브래드크럼 사용 여부 true, false(default), _data/ui-text.yml 에 다국어 지원 가능.
+words_per_minute: 200 # 해당 포스트를 읽는데 걸리는 시간을 계산하기 위해 대략 분당 읽는 수가 몇글자가 될지 적는 공간.
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid:
+    num_posts: # 5 (default)
+    colorscheme: # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme: # "github-light" (default), "github-dark"
+    issue_term: # "pathname" (default)
   giscus:
-    repo_id              : # Shown during giscus setup at https://giscus.app
-    category_name        : # Full text name of the category
-    category_id          : # Shown during giscus setup at https://giscus.app
-    discussion_term      : # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+    repo_id: # Shown during giscus setup at https://giscus.app
+    category_name: # Full text name of the category
+    category_id: # Shown during giscus setup at https://giscus.app
+    discussion_term: # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled: # '1' for enabled (default), '0' for disabled
+    theme: # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
   staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+    branch: # "master"
+    endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey:
+  secret:
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+  path: # blank (default) uses feed.xml
+  hide: # true, false (default)
+search: # true, false (default)
+search_full_content: # true, false (default)
+search_provider: # lunr (default), algolia, google
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  search_engine_id: # YOUR_SEARCH_ENGINE_ID
+  instant_search: # false (default), true
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-naver_site_verification  :
-yandex_site_verification :
-baidu_site_verification  :
+google_site_verification:
+bing_site_verification:
+naver_site_verification:
+yandex_site_verification:
+baidu_site_verification:
 
 # Social Sharing
 twitter:
-  username               :
+  username:
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
+  username:
+  app_id:
+  publisher:
+og_image: # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type: # Person or Organization (defaults to Person)
+  name: # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
-
+    tracking_id:
+    anonymize_ip: # true, false (default)
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name: 'Your Name'
+  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: 'I am an **amazing** person.'
+  location: 'Somewhere'
+  email:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+    - label: 'Email'
+      icon: 'fas fa-fw fa-envelope-square'
       # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
+    - label: 'Website'
+      icon: 'fas fa-fw fa-link'
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    - label: 'Twitter'
+      icon: 'fab fa-fw fa-twitter-square'
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+    - label: 'Facebook'
+      icon: 'fab fa-fw fa-facebook-square'
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+    - label: 'GitHub'
+      icon: 'fab fa-fw fa-github'
       # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+    - label: 'Instagram'
+      icon: 'fab fa-fw fa-instagram'
       # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    - label: 'Twitter'
+      icon: 'fab fa-fw fa-twitter-square'
       # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+    - label: 'Facebook'
+      icon: 'fab fa-fw fa-facebook-square'
       # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+    - label: 'GitHub'
+      icon: 'fab fa-fw fa-github'
       # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
+    - label: 'GitLab'
+      icon: 'fab fa-fw fa-gitlab'
       # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
+    - label: 'Bitbucket'
+      icon: 'fab fa-fw fa-bitbucket'
       # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+    - label: 'Instagram'
+      icon: 'fab fa-fw fa-instagram'
       # url:
-
 
 # Reading Files
 include:
   - .htaccess
   - _pages
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
+  - '*.sublime-project'
+  - '*.sublime-workspace'
   - vendor
   - .asset-cache
   - .bundle
@@ -184,9 +182,8 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
+encoding: 'utf-8'
+markdown_ext: 'markdown,mkdown,mkdn,mkd,md'
 
 # Conversion
 markdown: kramdown
@@ -194,7 +191,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -207,19 +203,16 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
 
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins (previously gems:)
 plugins:
@@ -236,7 +229,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
 
 # Archives
 #  Type
@@ -266,7 +258,6 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
@@ -274,12 +265,11 @@ compress_html:
   ignore:
     envs: development
 
-
 # Defaults
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: ''
       type: posts
     values:
       layout: single
