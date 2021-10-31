@@ -104,7 +104,7 @@ author:
   name: '정태영'
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: '**JavaScript** 개발 기록 Blog'
-  location: 'Seoul Korea'
+  location: 'Seoul, Korea'
   email:
   links:
     - label: 'Email'
