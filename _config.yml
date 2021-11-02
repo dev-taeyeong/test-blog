@@ -16,17 +16,17 @@ minimal_mistakes_skin: 'default' # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: 'kr-KR' # 블로그의 주요 언어. 한국어는 ko-KR 로 설정.
-title: '1day1commit' # 사이트 탭에서 보이는 이름.
-title_separator: '-' # 타이틀 사이 구분자 <title>Welcom to Jekyll | Minimal Mistakes</title> 해당 형식으로 들어간다.
-subtitle: 'Version 1.0' # site tagline that appears below site title in masthead # 타이틀 아래에 나올 작은 소제목
+title: '1day 1commit' # 사이트 탭에서 보이는 이름.
+title_separator: '-' # 타이틀 사이 구분자 <title>Welcom to Jekyll - Minimal Mistakes</title> 해당 형식으로 들어간다.
+subtitle: '2021.11.01 ~ ' # 타이틀 아래에 나올 작은 소제목
 name: '정태영' # 맨 하단 이름 찍히는 영역
-description: 'JavaScript 공부 블로그' # Meta 태그에 들어가는 영역
+description: '개인 공부 기록용 블로그 입니다.' # Meta 태그에 들어가는 영역
 url: 'https://1day1commit.github.io' # 현재 블로그의 url # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: '1day1commit/comments' # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes" # Github Reop
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png" # 홈페이지 기본 티저 이미지
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png" # 타이틀 옆에 작게 들어갈 이미지
-masthead_title: '개발 기록 Blog' # 홈페이지 최상단에 들어갈 타이틀
+masthead_title: '1DAY 1COMMIT' # 홈페이지 최상단에 들어갈 타이틀
 # breadcrumbs            : false # true, false (default) # 브래드크럼 사용 여부 true, false(default), _data/ui-text.yml 에 다국어 지원 가능.
 words_per_minute: 200 # 해당 포스트를 읽는데 걸리는 시간을 계산하기 위해 대략 분당 읽는 수가 몇글자가 될지 적는 공간.
 comments:
@@ -103,7 +103,7 @@ analytics:
 author:
   name: 'TaeYeong Jeong' # 이름 영역
   avatar: # 프로필 사진 경로, e.g. "/assets/images/bio-photo.jpg"
-  bio: '**1일 1커밋!!!**<br>매일 공부' # biography 의 약칭으로, 자기소개를 적으면 된다. # 줄바꿈은 <br> 로 굵은 글씨는 **글씨** 로 표기한다.
+  bio: '**개인 공부 기록용 블로그입니다.**<br>반가워요 :)' # biography 의 약칭으로, 자기소개를 적으면 된다. # 줄바꿈은 <br> 로 굵은 글씨는 **글씨** 로 표기한다.
   location: 'Seoul, Korea' # 지역
   email: # 이메일 주소. (links 에서 작성할 수 있기 때문에 생략하였다.)
   links:
@@ -131,6 +131,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: 'Email'
+      icon: 'fas fa-fw fa-envelope-square'
+      url: mailto:dev.taeyeong@gmail.com
     - label: 'Twitter'
       icon: 'fab fa-fw fa-twitter-square'
       # url:
