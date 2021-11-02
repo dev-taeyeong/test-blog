@@ -75,7 +75,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: clac($type-size-6 * 1.5);
+  font-size: $type-size-6;
 
   & + p {
     text-indent: 0;
