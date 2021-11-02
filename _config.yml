@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name: 'TaeYeong Jeong' # 이름 영역
-  avatar: # 프로필 사진 경로, e.g. "/assets/images/bio-photo.jpg"
+  avatar: '/assets/images/github-profile.jpg' # 프로필 사진 경로, e.g. "/assets/images/bio-photo.jpg"
   bio: '**개인 공부 기록용 블로그입니다.**<br>반가워요 :)' # biography 의 약칭으로, 자기소개를 적으면 된다. # 줄바꿈은 <br> 로 굵은 글씨는 **글씨** 로 표기한다.
   location: 'Seoul, Korea' # 지역
   email: # 이메일 주소. (links 에서 작성할 수 있기 때문에 생략하였다.)
