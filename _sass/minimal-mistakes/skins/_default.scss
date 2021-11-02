@@ -13,6 +13,8 @@ $masthead-link-color: #262626 !default;
 //   color: #262626;
 // }
 
-.archive__item-title {
+.archive__item-title a,
+.archive__item-title a:visited,
+.archive__item-title a:hover {
   color: #262626;
 }
