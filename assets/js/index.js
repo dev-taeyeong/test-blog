@@ -8,9 +8,10 @@ $('.page__content > p > img[alt]').replaceWith(function () {
     '<img src="' +
     $(this).attr('src') +
     '"/></a>' +
-    '<figcaption class="caption">' +
-    $(this).attr('alt') +
-    '</figcaption>' +
+    // '<figcaption class="caption">'
+    // +
+    // $(this).attr('alt') +
+    // '</figcaption>' +
     '</figure>'
   );
 });
