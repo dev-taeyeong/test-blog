@@ -6,7 +6,7 @@ categories:
   - Blog
 
 tags:
-  - [Blog, jekyll, Github, Git, minimal mistakes, Post]
+  - [Blog, Jekyll, Github, Minimal Mistakes, Blog Posting, github.io]
 
 toc: ture
 toc_sticky: true
