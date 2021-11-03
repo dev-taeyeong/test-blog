@@ -113,6 +113,10 @@ last_modified_at: 글을 수정한 날짜입니다.
 
 머릿말 이후의 영역은 포스트 본문 입니다. Jekyll 은 **HTML** 과 **Markdown** 을 지원하는데 사용하기 간편한 **Markdown** 으로 작성하면 됩니다.
 
-<img width="891" alt="ddd" src="https://user-images.githubusercontent.com/87692499/140023813-a589e176-3198-4705-bc30-c7afb263739c.png">
+<img width="891" alt="" src="https://user-images.githubusercontent.com/87692499/140023813-a589e176-3198-4705-bc30-c7afb263739c.png">
 
-이런식으로 작성하면 됩니다!
+이런식으로 작성하면 됩니다.
+
+혹시나 마크다운을 접해본 적이 없으신 분들은 어려워 보일 수 있는데 조금만 검색해 보시면 쉽게 작성할 수 있으실 겁니다!
+
+<img width="200" alt="스크린샷 2021-11-03 오후 6 50 41" src="https://user-images.githubusercontent.com/87692499/140039454-bc235b60-f60b-4768-876e-6409b9b1c0ca.png">
