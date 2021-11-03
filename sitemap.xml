@@ -9,7 +9,7 @@ layout: null
     {% for post in site.posts %}
     <url>
         <loc>{{ site.url }}{{ post.url }}</loc>
-        {% if post.lastmod == null %}
+        {% if post.last_modified_at == null %}
         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
         {% else %}
         <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
