@@ -78,8 +78,9 @@
   margin-top: 0;
   font-size: $type-size-6;
 
-  padding-bottom: 3.5em;
-  border-bottom: 1px solid mix(#fff, #262626, 75%);
+  // padding-bottom: 3.5em;
+  margin-bottom: 3.5em;
+  // border-bottom: 1px solid mix(#fff, #262626, 75%);
   & + p {
     text-indent: 0;
   }
