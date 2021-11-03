@@ -44,6 +44,7 @@
 }
 
 .archive__item-title {
+  margin-top: 1.5em;
   margin-bottom: 0.25em;
   font-size: 1.7em;
   font-family: $sans-serif-narrow;
@@ -77,6 +78,8 @@
   margin-top: 0;
   font-size: $type-size-6;
 
+  padding-bottom: 3.5em;
+  border-bottom: 1px solid mix(#fff, #262626, 75%);
   & + p {
     text-indent: 0;
   }
