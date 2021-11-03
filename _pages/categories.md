@@ -1,12 +1,7 @@
 ---
+title: 'Category'
+layout: categories
 permalink: /categories/
-title: 'Categories'
-toc: true
-toc_sticky: true
-toc_label: 'Categories'
+author_profile: true
+sidebar_main: true
 ---
-
-<!--
-![icon](/assets/logo.ico/apple-icon-120x120.png)
-
-원하는 자기소개 상세 내용 -->
