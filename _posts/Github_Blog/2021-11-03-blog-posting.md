@@ -136,7 +136,7 @@ Visual Studio Code 를 사용하시는 분들은 동그라미 친 부분을 누�
 
 터미널을 실행하고 자신의 github.io 폴더로 이동합니다. 그 다음 `bundle exec jekyll serve` 명령어를 쳐주면 로컬 환경에서 Jekyll 서버가 작동됩니다.
 
-작성중인 `.md` 파일을 저장한 후 웹 브라우저를 열고 [http://localhost:4000](http://localhost:4000) 으로 접속하면 서버에 올렸을 때 블로그가 어떻게 보여질 지 미리 확인해 볼 수 있습니다.
+작성중인 `.md` 파일을 저장한 후 웹 브라우저를 열고 [http://localhost:4000](http://localhost:4000){:target="\_blank"} 으로 접속하면 서버에 올렸을 때 블로그가 어떻게 보여질 지 미리 확인해 볼 수 있습니다.
 
 `git push` 하여 원격 서버에 반영한 후 확인하려면 길게는 5~10분 정도의 시간이 소요되니 꼭 로컬 환경에서 확인해보시고 push 하세요!
 
@@ -162,3 +162,13 @@ Visual Studio Code 를 사용하시는 분들은 동그라미 친 부분을 누�
 
 1분에서 길게는 5분 이상 걸릴때도 있으니 포스트가 보이지 않는다고 당황하지 말고 기다려주시면 됩니다.
 {: .notice}
+
+# Reference
+
+- [Jekyll 공식 문서](https://jekyllrb.com/){:target="\_blank"}
+
+- [Minimal Mistakes 공식 문서](https://mmistakes.github.io/minimal-mistakes/){:target="\_blank"}
+
+- [평생 공부 블로그 : Today I Learned](https://ansohxxn.github.io/blog/i-made-my-blog/){:target="\_blank"}
+
+- [정리가 재밌는 개발자](https://velog.io/@eona1301/Github-Blog-Jekyll-minimal-mistakes-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0){:target="\_blank"}
