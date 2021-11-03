@@ -7,7 +7,8 @@ $('.page__content > p > img[alt]').replaceWith(function () {
     '" class="mg-link">' +
     '<img src="' +
     $(this).attr('src') +
-    '"/></a>' +
+    '"/></a>'
+    // +
     // '<figcaption class="caption">'
     // +
     // $(this).attr('alt') +
