@@ -499,6 +499,10 @@
   // border-bottom: 1px solid $border-color;
 }
 
+.nav__sub-title__detail a:hover {
+  text-decoration: underline;
+}
+
 /*
      Table of contents navigation
      ========================================================================== */
