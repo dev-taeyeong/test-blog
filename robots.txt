@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://1day1commit.github.io/sitemap.xml
