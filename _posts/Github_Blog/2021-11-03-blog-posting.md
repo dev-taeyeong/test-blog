@@ -119,4 +119,43 @@ last_modified_at: 글을 수정한 날짜입니다.
 
 혹시나 마크다운을 접해본 적이 없으신 분들은 어려워 보일 수 있는데 조금만 검색해 보시면 쉽게 작성할 수 있으실 겁니다!
 
-<img width="368" alt="스크린샷 2021-11-03 오후 6 50 41" src="https://user-images.githubusercontent.com/87692499/140039454-bc235b60-f60b-4768-876e-6409b9b1c0ca.png">
+<img width="298" alt="스크린샷 2021-11-03 오후 7 01 57" src="https://user-images.githubusercontent.com/87692499/140040912-5573cc52-08b3-40b2-96ab-e76f98002b24.png">
+
+Visual Studio Code 를 사용하시는 분들은 동그라미 친 부분을 누르시면 (우측 상단에 있습니다.)
+
+<img width="1406" alt="스크린샷 2021-11-03 오후 7 05 01" src="https://user-images.githubusercontent.com/87692499/140041347-2cd1acb9-46ea-4e58-bc5b-b4dec62e1500.png">
+
+이렇게 실시간으로 확인하면서 작성이 가능합니다!
+
+하지만 실제로 블로그에 포스팅 될 때는 차이가 있는 경우가 있기 때문에 꼭 로컬 서버에서 블로그를 실행시켜 확인을 해보고 push 하는 것이 좋습니다!
+{: .notice}
+
+<br>
+
+# 6. 로컬 서버에서 블로그에 적용될 모습 확인하기
+
+터미널을 실행하고 자신의 github.io 폴더로 이동합니다. 그 다음 `bundle exec jekyll serve` 명령어를 쳐주면 로컬 환경에서 Jekyll 서버가 작동됩니다.
+
+작성중인 `.md` 파일을 저장한 후 웹 브라우저를 열고 [http://localhost:4000](http://localhost:4000) 으로 접속하면 서버에 올렸을 때 블로그가 어떻게 보여질 지 미리 확인해 볼 수 있습니다.
+
+`git push` 하여 원격 서버에 반영한 후 확인하려면 길게는 5~10분 정도의 시간이 소요되니 꼭 로컬 환경에서 확인해보시고 push 하는 것을 추천합니다!
+
+`bundle exec jekyll serve` 대신 `bundle exec jekyll serve --livereload` 명령어를 실행시키면 파일을 저장할 때마다 자동으로 페이지에 반영됩니다. 저는 이렇게 사용하는데 편하신대로 사용하시면 됩니다!  
+반영이 잘 안되는 경우에는 control + c 로 로컬 서버를 종료하고 다시 실행시켜주시면 됩니다.
+{: .notice--info}
+
+<br>
+
+# 7. 작성한 포스트 파일을 원격 저장소에 업로드 하여 Github Pages 서버에 업로드하기
+
+**github.io 폴더** 의 변경사항을 `git push` 해서 Github Pages 원격 서버에 올려주어야 합니다.
+
+깃 명령어를 사용하여 터미널에서 `git add, git commit, git push` 해도 되지만 VS Code 내에서 UI 로 Github 원격 서버에 업로드가 가능합니다.
+
+<img width="378" alt="스크린샷 2021-11-03 오후 7 24 53" src="https://user-images.githubusercontent.com/87692499/140044264-a4b73f46-5a18-45a0-b9d5-7bd3a551d471.png">
+
+왼쪽 메뉴에서 세번째 아이콘을 클릭하면 git 을 사용할 수 있는데 **모든 변경 내용 스테이징** 을 누르고
+
+<img width="296" alt="스크린샷 2021-11-03 오후 7 26 44" src="https://user-images.githubusercontent.com/87692499/140044439-904cf70f-9f31-4706-8453-27e3f7ef8feb.png">
+
+그 위에 **커밋** 버튼을 누르면 커밋할 메세지를 입력할 수 있습니다. 원하는 메세지를 입력한 다음
