@@ -21,6 +21,8 @@
 .archive__item {
   position: relative;
 
+  margin-top: 2em;
+
   a {
     position: relative;
     z-index: 10;
@@ -43,9 +45,13 @@
   }
 }
 
+.page__date {
+  font-size: 0.8em;
+}
+
 .archive__item-title {
-  margin-top: 1.5em;
-  margin-bottom: 0.25em;
+  margin-top: 0.1em;
+  margin-bottom: 0.4em;
   font-size: 1.7em;
   font-family: $sans-serif-narrow;
   line-height: initial;
@@ -76,7 +82,8 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  // font-size: $type-size-6;
+  font-size: 0.8em;
 
   // padding-bottom: 3.5em;
   margin-bottom: 4em;
