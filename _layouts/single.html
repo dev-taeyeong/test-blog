@@ -30,7 +30,10 @@ layout: default
             <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
           </h1>{% endif %}
           {% if page.date %}
-            <span class="page__date"><i class="far fa-clock" aria-hidden="true"></i>{{ page.date | date: "%Y-%m-%d" }}</span>
+            <span class="page__date"><i class="far fa-calendar-alt"></i> Date: {{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          {% endif %}
+          {% if page.last_modified_at %}
+            <span class="page__date"><i class="far fa-calendar-alt"></i> Updated: {{ page.last_modified_at | last_modified_at: "%Y-%m-%d" }}</span>
           {% endif %}
           <!-- {% include page__meta.html %} -->
         </header>
