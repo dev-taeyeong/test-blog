@@ -113,6 +113,6 @@ last_modified_at: 글을 수정한 날짜입니다.
 
 머릿말 이후의 영역은 포스트 본문 입니다. Jekyll 은 **HTML** 과 **Markdown** 을 지원하는데 사용하기 간편한 **Markdown** 으로 작성하면 됩니다.
 
-<img width="891" alt="" src="https://user-images.githubusercontent.com/87692499/140023813-a589e176-3198-4705-bc30-c7afb263739c.png">
+<img width="891" alt="ddd" src="https://user-images.githubusercontent.com/87692499/140023813-a589e176-3198-4705-bc30-c7afb263739c.png">
 
 이런식으로 작성하면 됩니다!
