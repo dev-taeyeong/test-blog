@@ -4,48 +4,25 @@
 
 <nav class="nav__list">
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">카테고리 click</label>
+  <label for="ac-toc">{{
+    site.data.ui - text[site.locale].menu_label | default: 'Toggle Menu'
+  }}</label>
   <ul class="nav__items" id="category_tag_menu">
-      <!--전체 글 수-->
-      <li>
-            <span>🔔 전체 글 수 {{sum}} 개</span> 
-      </li>
-      
-      <li>
-        <!--span 태그로 카테고리들을 크게 분류 ex) Blog-->
-        <span class="nav__sub-title">Blog</span>
-            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
-            <ul>
-                <!--Blog 카테고리 글들을 모아둔 페이지인 /categories/blog 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
-                {% for category in site.categories %}
-                    {% if category[0] == "Blog" %}
-                        <li class="nav__sub-title__detail"><a href="/categories/blog" class="">Blog ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-      </li>
-
-      <li>
-        <span class="nav__sub-title">JavaScript</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "JavaScript" %}
-                        <li class="nav__sub-title__detail"><a href="/categories/javascript" class="">JavaScript ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-      </li>
-
-      <li>
-        <span class="nav__sub-title">Wecode</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Wecode" %}
-                        <li class="nav__sub-title__detail"><a href="/categories/wecode" class="">Wecode ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-      </li>
+    <li>
+      <span>🔔 전체 글 수 {{ sum }} 개</span>
+    </li>
+    <li>
+      <span class="nav__sub-title" v-on:click="togglec()">Categories</span>
+      <ul v-show="flag_c">
+        {% assign sorted_categories = site.categories | sort%} {% for category
+        in sorted_categories %}
+        <li>
+          <a href="/categories/{{ category[0] }}" class=""
+            >{{ category[0] }} ({{ category[1].size }})</a
+          >
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
   </ul>
 </nav>
