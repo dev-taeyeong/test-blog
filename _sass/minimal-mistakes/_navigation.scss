@@ -493,10 +493,14 @@
   margin: 0.5rem 0;
   padding: 0.25rem 0;
   font-family: $sans-serif-narrow;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bold;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   // border-bottom: 1px solid $border-color;
+}
+
+.nav__sub-title__detail a {
+  // font-size: 1em;
 }
 
 .nav__sub-title__detail a:hover {

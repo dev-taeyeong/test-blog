@@ -7,9 +7,10 @@
   <label for="ac-toc">카테고리 click</label>
   <ul class="nav__items" id="category_tag_menu">
       <!--전체 글 수-->
-      <li style="font-size: 0.7em">
+      <li>
             <span>🔔 전체 글 수 {{sum}} 개</span> 
       </li>
+      
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) Blog-->
         <span class="nav__sub-title">Blog</span>
@@ -19,7 +20,29 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "Blog" %}
-                        <li  style="font-size: 0.9em" class="nav__sub-title__detail"><a href="/categories/blog" class="">Blog ({{category[1].size}})</a></li>
+                        <li class="nav__sub-title__detail"><a href="/categories/blog" class="">Blog ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>
+
+      <li>
+        <span class="nav__sub-title">JavaScript</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "JavaScript" %}
+                        <li class="nav__sub-title__detail"><a href="/categories/javascript" class="">JavaScript ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>
+
+      <li>
+        <span class="nav__sub-title">Wecode</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Wecode" %}
+                        <li class="nav__sub-title__detail"><a href="/categories/wecode" class="">Wecode ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
