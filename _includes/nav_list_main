@@ -7,7 +7,7 @@
   <label for="ac-toc">카테고리 click</label>
   <ul class="nav__items" id="category_tag_menu">
       <!--전체 글 수-->
-      <li>
+      <li style="font-size: 0.7em">
             💻 <span>전체 글 수 {{sum}} 개</span> 
       </li>
       <li>
