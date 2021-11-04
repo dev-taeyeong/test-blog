@@ -17,9 +17,15 @@
         {% assign sorted_categories = site.categories | sort%} {% for category
         in sorted_categories %}
         <li>
-          <a href="/categories/{{ category[0] }}" class=""
+          <a
+            href="/categories/{{ category[0] | slugify }}"
+            class="nav__sub-title__detail"
+            >{{ category[0] }} ({{ category[1].size }})
+          </a>
+
+          <!-- <a href="/categories/{{ category[0] }}" class=""
             >{{ category[0] }} ({{ category[1].size }})</a
-          >
+          > -->
         </li>
         {% endfor %}
       </ul>
