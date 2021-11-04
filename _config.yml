@@ -18,7 +18,7 @@ minimal_mistakes_skin: 'default' # "air", "aqua", "contrast", "dark", "dirt", "n
 locale: 'kr-KR' # 블로그의 주요 언어. 한국어는 ko-KR 로 설정.
 title: '1day 1commit' # 사이트 탭에서 보이는 이름.
 title_separator: '-' # 타이틀 사이 구분자 <title>Welcom to Jekyll - Minimal Mistakes</title> 해당 형식으로 들어간다.
-subtitle: '2021.11.01 ~ ' # 타이틀 아래에 나올 작은 소제목
+subtitle: '근데 이제 휴식을 곁들인' # 타이틀 아래에 나올 작은 소제목
 name: '정태영' # 맨 하단 이름 찍히는 영역
 description: '개인 공부 기록용 블로그 입니다.' # Meta 태그에 들어가는 영역
 url: 'https://1day1commit.github.io' # 현재 블로그의 url # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
