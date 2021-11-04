@@ -53,15 +53,17 @@ layout: default
       </section>
 
       <footer class="page__meta">
+        <hr>
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
         {% include page__taxonomy.html %}
         {% include page__date.html %}
       </footer>
-
+      
       {% if page.share %}{% include social-share.html %}{% endif %}
 
+      <h4 class="page__meta-title"><span>{{ page.categories[0] }}</span> <span>카테고리 내 다른 글 보러가기</span></h4>
       {% include post_pagination.html %}
     </div>
 
