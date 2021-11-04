@@ -1,12 +1,12 @@
 ---
-title: '블로그 글 작성하기'
+title: '깃허브 블로그 글 작성하기'
 excerpt: '기본적인 설정을 완료했으니 이제 블로그에 첫 글을 작성해봅시다!'
 
 categories:
   - Blog
 
 tags:
-  - [Blog, Jekyll, Github, Minimal Mistakes, Blog Posting, github.io]
+  - [Blog, Jekyll, Github Blog, Minimal Mistakes, Blog Posting, github.io]
 
 toc: ture
 toc_sticky: true
