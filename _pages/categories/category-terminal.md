@@ -1,10 +1,10 @@
 ---
-title: 'JavaScript'
+title: 'Terminal'
 layout: archive
-permalink: categories/javascript
+permalink: categories/terminal
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.JavaScript %} <hr />
+{% assign posts = site.categories.Terminal %} <hr />
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} <hr />{% endfor %}
