@@ -545,3 +545,9 @@ console.log(arr); // [3, 4, 1, 2];
 {: .notice--info}
 
 배열 메서드는 앞으로 더 추가하겠습니다!
+
+<br>
+
+# Reference
+
+- 모던 자바스크립트 Deep Dive - 이웅모
