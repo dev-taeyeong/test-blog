@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
 
 date: 2021-11-04T23:04:04+0900
-last_modified_at: 2021-11-04T23:04:04+0900
+last_modified_at: 2021-11-05T11:43:15+0900
 ---
 
 <br>
@@ -90,3 +90,27 @@ VS Code 하단 왼쪽 톱니바퀴 모양 버튼을 클릭하고 사용자 코�
 
 키 설정할 때 조심해서 하세요! 잘못해서 삭제하거나 그러면 엄청 고생합니다 ㅜㅜ 저는 실수로 스페이스바를 삭제했습니다 😱
 {: .notice--warning}
+
+<br>
+
+# + 날짜 시간 자동입력 extension 설치하기!
+
+포스트를 수정할 때 `last_modified_at` 을 수정하는 것이 정말 귀찮아서 현재 날짜와 시간을 자동 입력해주는 기능이 없나 찾아보다가 **Insert Date String** 이라는 extension 을 찾았습니다!
+
+<img width="300" alt="스크린샷 2021-11-05 오전 11 33 24" src="https://user-images.githubusercontent.com/87692499/140448648-ebf516ab-41ad-481b-8562-9267f3cb856c.png">
+
+사진에 보이는 extension 을 설치해주세요.
+
+아래 설명을 읽어보면 macOS 는 **shift + cmd + i**, window 는 **shift + ctrl + i** 단축키를 사용하면 날짜와 시간이 입력 된다고 합니다.
+
+하지만 제가 Front Matter 에 사용하는 형식이 아닙니다. 형식을 수정해봅시다.
+
+<img width="613" alt="스크린샷 2021-11-05 오전 11 37 51" src="https://user-images.githubusercontent.com/87692499/140449182-a45072cc-90f1-47a6-bc26-043ca4ee93c2.png">
+
+사진에 보이는 톱니바퀴 버튼을 클릭하고 확장 설정 메뉴를 눌러줍니다.
+
+<img width="984" alt="스크린샷 2021-11-05 오전 11 40 04" src="https://user-images.githubusercontent.com/87692499/140449302-f7d98c36-64ba-4161-bc11-956bcfb7a9a2.png">
+
+그리고 저랑 똑같이 입력해주시면 됩니다! (형식은 extension 세부 정보를 읽어보시면 잘 나와 있습니다.)
+
+이제 **shift + cmd + i** 또는 **shift + ctrl + i** 단축키를 눌러주면 `2021-11-05T11:42:46+0900` 이렇게 잘 입력이 됩니다!
