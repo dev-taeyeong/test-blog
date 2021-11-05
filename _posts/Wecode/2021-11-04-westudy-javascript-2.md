@@ -6,7 +6,7 @@ categories:
   - Wecode
 
 tags:
-  - [Wecode, Westudy, 배열, 반복문, JavaScript]
+  - [Wecode, Westudy, JavaScript]
 
 toc: ture
 toc_sticky: true

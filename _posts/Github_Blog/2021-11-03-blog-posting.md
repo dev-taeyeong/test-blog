@@ -48,6 +48,8 @@ github.io 폴더 > \_posts 폴더
 ex) 2021-11-01-first-post.md
 {: .notice}
 
+포스트 제목은 고유해야 합니다. 날짜가 달라도 중복되는 제목이 있으면 안됩니다!
+
 <br>
 
 # 4. 머릿말(Front Matter) 작성하기
