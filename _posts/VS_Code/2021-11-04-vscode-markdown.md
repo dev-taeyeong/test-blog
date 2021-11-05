@@ -8,12 +8,12 @@ categories:
 tags:
   - [
       Github Blog,
-      github.io,
       VS Code,
       Markdown,
       Front Matter,
       Insert Date String,
       extension,
+      꿀팁,
     ]
 
 toc: true
