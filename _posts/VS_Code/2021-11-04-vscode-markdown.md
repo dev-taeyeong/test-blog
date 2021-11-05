@@ -6,7 +6,14 @@ categories:
   - Github Blog
 
 tags:
-  - [Github Blog, github.io, VS Code, Markdown, Front Matter]
+  - [
+      Github Blog,
+      github.io,
+      VS Code,
+      Markdown,
+      Front Matter,
+      Insert Date String,
+    ]
 
 toc: true
 toc_sticky: true
