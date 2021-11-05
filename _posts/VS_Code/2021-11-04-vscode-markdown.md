@@ -13,6 +13,7 @@ tags:
       Markdown,
       Front Matter,
       Insert Date String,
+      extension,
     ]
 
 toc: true
