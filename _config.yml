@@ -293,3 +293,6 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+# 페이지 링크 변경
+permalink: /:slugified_categories/:title/
