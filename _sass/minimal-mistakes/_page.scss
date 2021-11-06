@@ -344,6 +344,18 @@ body {
   }
 }
 
+.archive-item .archive-item__post-title {
+  color: $text-color;
+}
+
+.page__taxonomy .page__taxonomy-item-tag {
+  // background-color: $border-color;
+  color: $text-color;
+  padding: 5px;
+  border: 1px solid $border-color;
+  border-radius: 2px;
+}
+
 .taxonomy__section {
   margin-bottom: 2em;
   padding-bottom: 1em;
