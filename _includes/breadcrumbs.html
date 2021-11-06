@@ -31,8 +31,7 @@
         {% assign i = i | plus: 1 %}
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
           {% if crumb != 'categories' %}
-          <!-- <a href="/categories{{ crumb | replace: '%20', '-' | relative_url}}" itemprop="item"><span itemprop="name">{{ page.categories }}</span></a> -->
-          <a href="/categories{{ crumb | relative_url}}" itemprop="item"><span itemprop="name">{{ page.categories }}</span></a>
+          <a href="/categories{{ crumb | replace: '%20', '-' | relative_url}}" itemprop="item"><span itemprop="name">{{ page.categories }}</span></a>
           {% else %}
           <a href="{{ crumb | replace: '%20', '-' | relative_url}}" itemprop="item"><span itemprop="name">{{ crumb | replace: '-', ' ' | replace: '%20', ' ' | capitalize }}</span></a>
           {% endif %}
