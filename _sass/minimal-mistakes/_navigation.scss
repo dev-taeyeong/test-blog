@@ -13,10 +13,10 @@
   padding-left: 1em;
   padding-right: 1em;
   font-family: $sans-serif;
-  -webkit-animation: $intro-transition;
-  animation: $intro-transition;
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s;
+  // -webkit-animation: $intro-transition;
+  // animation: $intro-transition;
+  // -webkit-animation-delay: 0.3s;
+  // animation-delay: 0.3s;
 
   @include breakpoint($x-large) {
     max-width: $x-large;
@@ -141,11 +141,15 @@
     border-radius: $border-radius;
 
     .prev_next {
-      color: #88b5bf;
+      color: $link-color;
     }
 
     &:hover {
       @include yiq-contrasted($muted-text-color);
+    }
+
+    &:hover .prev_next {
+      color: #85b8cb;
     }
 
     &:first-child {

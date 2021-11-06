@@ -27,7 +27,8 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title %}<h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
+            <!-- <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a> -->
+            {{ page.title }}
           </h1>{% endif %}
           {% if page.date %}
             <span class="page__date"><i class="far fa-calendar-alt"></i> Date: {{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;&nbsp;</span>
