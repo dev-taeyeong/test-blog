@@ -344,6 +344,11 @@ body {
   }
 }
 
+.page__taxonomy-item:hover {
+  color: $text-color;
+  background-color: $border-color;
+}
+
 .archive-item .archive-item__post-title {
   color: $text-color;
 }
@@ -354,6 +359,10 @@ body {
   padding: 5px;
   border: 1px solid $border-color;
   border-radius: 2px;
+}
+
+.page__taxonomy-item-tag:hover {
+  background-color: $border-color;
 }
 
 .taxonomy__section {
