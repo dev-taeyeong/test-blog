@@ -294,5 +294,4 @@ defaults:
       layout: single
       author_profile: true
 # 페이지 링크 변경
-collections:
-  permalink: /:slugified_categories/:title
+permalink: /:slugified_categories/:title
