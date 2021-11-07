@@ -12,3 +12,5 @@ branches:
     - main
 rvm:
   - 2.4
+dist:
+  - trusty
