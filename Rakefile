@@ -73,10 +73,11 @@ task :preview do
   end
 
   Jekyll::Commands::Serve.process(options)
-end
 
-# Generate the site
+  # Generate the site
 sh "bundle exec jekyll build"
 
 # Run Algolia 
 sh "bundle exec jekyll algolia"
+end
+
