@@ -354,8 +354,10 @@ body {
 }
 
 .page__taxonomy .page__taxonomy-item-tag {
+  display: inline-block;
   color: $text-color;
   padding: 5px;
+  margin-bottom: 5px;
   border: 1px solid $border-color;
   border-radius: 2px;
 }
