@@ -8,3 +8,5 @@ sidebar_main: true
 
 {% assign posts = site.categories.Blog %} <hr />
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} <hr />{% endfor %}
+
+카테고리
