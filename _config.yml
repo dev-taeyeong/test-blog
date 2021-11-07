@@ -215,7 +215,7 @@ sass:
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Outputting
-permalink: /:slugified_categories/:title/
+permalink: /:categories/:title/
 paginate: 15 # amount of posts to show # Defaults: 5
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
