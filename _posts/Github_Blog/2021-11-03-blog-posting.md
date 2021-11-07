@@ -11,8 +11,6 @@ tags:
 toc: ture
 toc_sticky: true
 
-permalink: /:slugified_categories/:title/
-
 date: 2021-11-03
 last_modified_at: 2021-11-03
 ---
