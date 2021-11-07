@@ -220,11 +220,6 @@ paginate: 15 # amount of posts to show # Defaults: 5
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-collections:
-  my_collection:
-    output: true
-    permalink: /:slugified_categories/:title/
-
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate

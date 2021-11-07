@@ -21,6 +21,8 @@ toc_sticky: true
 
 date: 2021-11-04T23:04:04+0900
 last_modified_at: 2021-11-05T11:43:15+0900
+
+permalink: /:slugified_categories/:title/
 ---
 
 <br>
