@@ -326,5 +326,3 @@ console.log(Object.getOwnPropertyDescriptors([1, 2, 3]));
 # Reference
 
 - 모던 자바스크립트 Deep Dive - 이웅모
-
-- [https://ferrante.tistory.com/19](https://ferrante.tistory.com/19)
