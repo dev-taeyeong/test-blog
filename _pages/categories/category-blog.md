@@ -4,8 +4,6 @@ layout: archive
 permalink: categories/blog
 author_profile: true
 sidebar_main: true
-
-paginate: 5 # amount of posts to show # Defaults: 5
 ---
 
 {% assign posts = site.categories.Blog %} <hr />
