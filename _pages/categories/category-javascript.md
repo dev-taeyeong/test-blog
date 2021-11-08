@@ -1,10 +1,12 @@
 ---
-title: 'JavaScript 카테고리'
+title: 'JavaScript'
 layout: archive
 permalink: categories/javascript
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.JavaScript %} &nbsp;<hr />
+{% assign posts = site.categories.JavaScript %} <hr />
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} <hr />{% endfor %}
+
+&nbsp;
