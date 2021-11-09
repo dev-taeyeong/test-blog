@@ -565,3 +565,5 @@ console.log(arr); // [3, 4, 1, 2];
 <br>
 
 # Reference
+
+- 모던 자바스크립트 Deep Dive - 이웅모
