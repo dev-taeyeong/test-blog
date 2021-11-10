@@ -356,8 +356,8 @@ body {
 .page__taxonomy .page__taxonomy-item-tag {
   display: inline-block;
   font-size: 0.8em;
-  background-color: #e5edf8;
-  color: #0384bd;
+  background-color: #f2f2f2;
+  color: $text-color;
   padding: 4px;
   margin-right: 0.2em;
   margin-bottom: 0.4em;
@@ -367,7 +367,7 @@ body {
 }
 
 .page__taxonomy-item-tag:hover {
-  background-color: #0384bd;
+  background-color: $text-color;
   color: #fff;
   // border: 1px solid #8f8681;
 }
