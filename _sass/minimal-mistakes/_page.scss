@@ -356,16 +356,19 @@ body {
 .page__taxonomy .page__taxonomy-item-tag {
   display: inline-block;
   font-size: 0.8em;
-  color: $text-color;
+  background-color: #e5edf8;
+  color: #0384bd;
   padding: 4px;
   margin-right: 0.2em;
   // margin-bottom: 2em;
-  border: 1px solid $border-color;
-  border-radius: 2px;
+  // border: 1px solid $border-color;
+  border-radius: 3px;
 }
 
 .page__taxonomy-item-tag:hover {
-  background-color: $border-color;
+  background-color: #0384bd;
+  color: #fff;
+  // border: 1px solid #8f8681;
 }
 
 .taxonomy__section {
