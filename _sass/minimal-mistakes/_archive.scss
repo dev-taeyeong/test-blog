@@ -19,7 +19,7 @@
 }
 
 .archive-item__post-title {
-  font-weight: bold;
+  // font-weight: bold;
 }
 
 .archive__item {
@@ -35,6 +35,10 @@
   a[rel='permalink'] {
     position: static;
   }
+}
+
+.archive-item small {
+  color: #a8a8a8;
 }
 
 .archive__subtitle {
@@ -90,7 +94,7 @@
   font-size: 0.8em;
 
   // padding-bottom: 3.5em;
-  margin-bottom: 4em;
+  // margin-bottom: 4em;
   // border-bottom: 1px solid mix(#fff, #262626, 75%);
   & + p {
     text-indent: 0;

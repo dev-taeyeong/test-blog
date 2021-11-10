@@ -355,9 +355,11 @@ body {
 
 .page__taxonomy .page__taxonomy-item-tag {
   display: inline-block;
+  font-size: 0.8em;
   color: $text-color;
-  padding: 5px;
-  margin-bottom: 5px;
+  padding: 4px;
+  margin-right: 0.2em;
+  margin-bottom: 1.7em;
   border: 1px solid $border-color;
   border-radius: 2px;
 }
