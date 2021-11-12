@@ -105,6 +105,10 @@
   }
 }
 
+.toc .toc__menu li a:hover {
+  color: $text-color;
+}
+
 .splash .sidebar__right {
   @include breakpoint($large) {
     position: relative;
