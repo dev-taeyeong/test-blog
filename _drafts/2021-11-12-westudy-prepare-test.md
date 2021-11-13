@@ -1,12 +1,12 @@
 ---
-title: 'westudy - 테스트 준비'
-excerpt: 'wecode 사전 스터디 기간에 배운 내용 정리'
+title: 'WeStudy - 테스트 준비'
+excerpt: 'WeCode 사전 스터디 기간에 배운 내용 정리'
 
 categories:
-  - Wecode
+  - WeCode
 
 tags:
-  - [Wecode, Westudy]
+  - [WeCode, WeStudy]
 
 toc: true
 toc_sticky: true

@@ -1,6 +1,8 @@
 <!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
 
-{% assign sum = site.posts | size %}
+{% assign sum = site.posts | size %} {% assign categories_max = 0 %} {% for
+category in site.categories %} {% if category[1].size > categories_max %} {%
+assign categories_max = category[1].size %} {% endif %} {% endfor %}
 
 <nav class="nav__list">
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
@@ -14,8 +16,8 @@
     <li>
       <span class="nav__sub-title" v-on:click="togglec()">Categories</span>
       <ul v-show="flag_c">
-        {% assign sorted_categories = site.categories | sort%} {% for category
-        in sorted_categories %}
+        {% for i in (1..categories_max) reversed %} {% for category in
+        site.categories %} {% if category[1].size == i %}
         <li>
           <a
             href="/categories/{{ category[0] | slugify }}"
@@ -27,7 +29,7 @@
             >{{ category[0] }} ({{ category[1].size }})</a
           > -->
         </li>
-        {% endfor %}
+        {% endif %} {% endfor %} {% endfor %}
       </ul>
     </li>
   </ul>

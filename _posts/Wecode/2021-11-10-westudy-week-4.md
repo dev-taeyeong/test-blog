@@ -1,12 +1,12 @@
 ---
-title: 'westudy - HTML & CSS'
+title: 'WeStudy - HTML & CSS'
 excerpt: 'HTML 과 CSS 개념을 익힙니다.'
 
 categories:
-  - Wecode
+  - WeCode
 
 tags:
-  - [Wecode, Westudy, HTML, CSS]
+  - [WeCode, WeStudy, HTML, CSS]
 
 toc: true
 toc_sticky: true

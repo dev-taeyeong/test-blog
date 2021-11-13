@@ -1,12 +1,12 @@
 ---
-title: 'westudy - JavaScript 1'
+title: 'WeStudy - JavaScript 1'
 excerpt: '자바스크립트 데이터 타입의 종류와 변수, 함수, 조건문에 대해 알아봅니다.'
 
 categories:
-  - Wecode
+  - WeCode
 
 tags:
-  - [Wecode, Westudy, JavaScript]
+  - [WeCode, WeStudy, JavaScript]
 
 toc: true
 toc_sticky: true

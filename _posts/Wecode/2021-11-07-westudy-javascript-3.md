@@ -1,12 +1,12 @@
 ---
-title: 'westudy - JavaScript 3'
+title: 'WeStudy - JavaScript 3'
 excerpt: '자바스크립트 객체에 대해 학습힙니다. 객체가 필요한 이유를 설명할 수 있고 객체와 배열을 같이 사용하고 있는 데이터 타입에서 원하는 값에 자유자재로 접근할 수 있게 반복 연습합니다.'
 
 categories:
-  - Wecode
+  - WeCode
 
 tags:
-  - [Wecode, Westudy, JavaScript]
+  - [WeCode, WeStudy, JavaScript]
 
 toc: true
 toc_sticky: true

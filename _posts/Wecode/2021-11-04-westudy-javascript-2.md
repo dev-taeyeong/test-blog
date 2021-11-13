@@ -1,12 +1,12 @@
 ---
-title: 'westudy - JavaScript 2'
+title: 'WeStudy - JavaScript 2'
 excerpt: '자바스크립트의 배열과 반복문에 대해 학습합니다. 배열과 반복문을 같이 사용해보고 그 이유에 대해 고민해 봅니다.'
 
 categories:
-  - Wecode
+  - WeCode
 
 tags:
-  - [Wecode, Westudy, JavaScript]
+  - [WeCode, WeStudy, JavaScript]
 
 toc: true
 toc_sticky: true
