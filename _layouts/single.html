@@ -31,7 +31,7 @@ layout: default
             {{ page.title }}
           </h1>{% endif %}
           {% if page.date %}
-            <span class="page__date"><i class="far fa-calendar-alt"></i> Date: {{ page.date | date: "%z" }}&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span class="page__date"><i class="far fa-calendar-alt"></i> Date: {{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;&nbsp;</span>
           {% endif %}
           {% if page.last_modified_at %}
             <span class="page__date"><i class="far fa-calendar-alt"></i> Updated: {{ page.last_modified_at | date: "%Y-%m-%d" }}</span>
