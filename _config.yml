@@ -295,4 +295,4 @@ defaults:
       author_profile: true
 
 # 시간대 변경
-timezone: Asiz/Seoul
+timezone: Asia/Seoul
