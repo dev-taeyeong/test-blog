@@ -9,7 +9,7 @@ figure.highlight {
   background: $base00;
   color: $base05;
   font-family: $monospace;
-  font-size: $type-size-6;
+  font-size: 0.85em;
   line-height: 1.8;
   border-radius: $border-radius;
 
@@ -18,6 +18,11 @@ figure.highlight {
     margin: 0;
     padding: 1em;
   }
+}
+
+code.highlighter-rouge {
+  background: #d1dddb;
+  font-size: 0.85em;
 }
 
 .highlight table {
@@ -318,7 +323,8 @@ figure.highlight {
 }
 
 .gist {
-  th, td {
+  th,
+  td {
     border-bottom: 0;
   }
 }
