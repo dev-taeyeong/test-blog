@@ -3,18 +3,10 @@ title: '블로그 포스트 작성할 때 머리말 자동완성 기능!! (VS Co
 excerpt: '깃허브 블로그 포스팅을 할 때 매번 Front Matter 를 작성하는 것은 매우 번거롭습니다. 원하는 형식을 만들어 자동완성 해 봅시다!'
 
 categories:
-  - Blog
+  - VsCode
 
 tags:
-  - [
-      Github Blog,
-      VS Code,
-      Markdown,
-      Front Matter,
-      Insert Date String,
-      extension,
-      꿀팁,
-    ]
+  - [Github Blog, VS Code, extension]
 
 toc: true
 toc_sticky: true
