@@ -3,7 +3,7 @@ title: 'TIL-06 Javascript Array 메서드 정리'
 excerpt: 'WeCode 사전 스터디 기간에 배운 내용 중 배열 메서드를 정리했습니다.'
 
 categories:
-  - WeCode
+  - TIL
 
 tags:
   - [WeCode, WeStudy, Array, JavaScript]
