@@ -1,6 +1,7 @@
 ---
 title: 'Terminal'
 layout: archive
+classes: wide
 permalink: categories/terminal
 author_profile: true
 sidebar_main: true

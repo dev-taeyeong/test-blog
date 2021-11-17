@@ -1,6 +1,7 @@
 ---
 title: 'JavaScript'
 layout: archive
+classes: wide
 permalink: categories/javascript
 author_profile: true
 sidebar_main: true

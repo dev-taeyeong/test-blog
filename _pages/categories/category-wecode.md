@@ -1,6 +1,7 @@
 ---
 title: 'Wecode'
 layout: archive
+classes: wide
 permalink: categories/wecode
 author_profile: true
 sidebar_main: true
