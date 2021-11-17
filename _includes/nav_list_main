@@ -9,6 +9,7 @@ assign categories_max = category[1].size %} {% endif %} {% endfor %}
   <label for="ac-toc">{{
     site.data.ui - text[site.locale].menu_label | default: 'Toggle Menu'
   }}</label>
+
   <ul class="nav__items" id="category_tag_menu">
     <li>
       <span>전체 글 수 {{ sum }} 개!</span>
