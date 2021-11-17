@@ -1,9 +1,9 @@
 ---
-title: 'TIL-06 Javascript Array 메서드 정리'
+title: 'Javascript Array 메서드 정리'
 excerpt: 'WeCode 사전 스터디 기간에 배운 내용 중 배열 메서드를 정리했습니다.'
 
 categories:
-  - TIL
+  - JavaScript
 
 tags:
   - [WeCode, WeStudy, Array, JavaScript]
@@ -30,10 +30,10 @@ last_modified_at: 2021-11-17T08:17:39+0900
 slice( [begin[, end]] ) // [] 은 배열을 뜻하는 것이 아니라 생략이 가능하다는 것을 나타냅니다.
 ```
 
-`slice` 메서드의 기본 형태 입니다. `end` 는 생략 가능합니다. (`end` 가 없을 경우 `begin` 도 생략 가능합니다.)
+`slice()` 메서드의 기본 형태 입니다. `end` 는 생략 가능합니다. (`end` 가 없을 경우 `begin` 도 생략 가능합니다.)
 
 - `begin`: 추출 시작점에 대한 인덱스를 의미합니다.
-- `end`: 추출을 종료할 인덱스를 의미합니다. **`slice` 는 `end` 인덱스를 제외하고 추출합니다.**
+- `end`: 추출을 종료할 인덱스를 의미합니다. **`slice()` 는 `end` 인덱스를 제외하고 추출합니다.**
 
 ex) `slice(1, 4)`
 

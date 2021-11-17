@@ -22,7 +22,7 @@ assign categories_max = category[1].size %} {% endif %} {% endfor %}
           <a
             href="/categories/{{ category[0] | slugify }}"
             class="nav__sub-title__detail"
-            >{{ category[0] }} ({{ category[1].size }})
+            >{{ category[0] | replace: '-', ' ' }} ({{ category[1].size }})
           </a>
 
           <!-- <a href="/categories/{{ category[0] }}" class=""
