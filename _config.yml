@@ -127,7 +127,7 @@ author:
     - label: 'Instagram' # 표시되는 이름
       icon: 'fab fa-fw fa-instagram' # fab fa-fw fa-{SNS NAME} 으로 하면 된다.
       # url: "https://instagram.com/"       # 개인 SNS 계정 링크를 기재하면 된다.
-    - label: ' TIL 블로그'
+    - label: ' Today I Learned'
       icon: 'fas fa-book"'
       url: "https://devtaeyeong.netlify.app/"
 
