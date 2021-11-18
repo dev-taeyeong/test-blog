@@ -2,8 +2,8 @@
 title: 'HTML CSS JavaScript 그룹 면접'
 excerpt: 'Pre-Course 그룹 면접 준비'
 
-categories: WeCode
-  -
+categories:
+  - WeCode
 
 tags:
   - [HTML, CSS, JavaScript]
